@@ -1,0 +1,50 @@
+class Atm{
+synchronized public void CheckBalance(String name){
+System.out.print(name + "Checking the ");
+try{
+Thread.sleep(10000);
+}catch(Exception e){
+}
+System.out.println("balance");
+}
+synchronized public void withdraw(String name , int amount){
+System.out.print(name + "Withdrwaing !");
+try{
+Thread.sleep(1000);
+}catch(Exception e){
+}
+System.out.println(amount);
+}
+}
+
+class Customer extends Thread{
+String name;
+int amount;
+Atm atm;
+
+
+Customer(String  n, Atm a ,int amt){
+name = n ; 
+atm = a;
+amount = amt;
+}
+public void useAtm(){
+atm.CheckBalance(name);
+atm.withdraw(name,amount);
+}
+public void run(){
+useAtm();
+}
+}
+
+public class atmm {
+public static  void main(String[] args){
+Atm atm = new Atm();
+Customer c1 = new Customer("mayur",atm,1000);
+
+Customer c2= new Customer("kanak",atm,10000);
+
+c1.start();
+c2.start();
+}
+}
