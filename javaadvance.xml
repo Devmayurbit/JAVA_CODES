@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Laptop</comment>
+<entry key="Processor">Intel i5</entry>
+<entry key="Warranty">1 Year</entry>
+<entry key="Color">Black</entry>
+<entry key="Keyboard">Backlit</entry>
+<entry key="Ports">USB-C, HDMI, Audio Jack</entry>
+<entry key="Webcam">720p HD</entry>
+<entry key="Weight">2.5kg</entry>
+<entry key="Brand">Dell</entry>
+<entry key="Graphics">NVIDIA GTX 1650</entry>
+<entry key="Storage">512GB SSD</entry>
+<entry key="Price">50000</entry>
+<entry key="Battery">6 hours</entry>
+<entry key="name">Mayur</entry>
+<entry key="Model">Inspiron 15</entry>
+<entry key="Connectivity">Wi-Fi 6, Bluetooth 5.0</entry>
+<entry key="Operating System">Windows 10</entry>
+<entry key="Audio">Stereo Speakers</entry>
+<entry key="age">21</entry>
+<entry key="RAM">8GB</entry>
+<entry key="Display">15.6 inch FHD</entry>
+</properties>
